@@ -35,6 +35,28 @@
     text-align: center;
     border-radius: 7px;
 }
-.informarionBox h3 {
 
+.countBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.countBox img{
+    width: 30px;
+    cursor: pointer;
+
+}
+.countBox img:hover{
+    color: #20bf6b;
+}
+.countBox span{
+    width: 30px;
+    text-align: center;
+    padding: 10px;
+    cursor: default;
+}
+.countBox .deactiveButton {
+    opacity: .3;
 }
